@@ -1,0 +1,63 @@
+voting application
+
+1-> functional requirements 
+ - a functionality where user can give vote to the given candidates
+ - mazor functionality 
+   - user can sign in/sign-up
+   - see the list of candidates
+   - only single vote would be counted
+   - there is a route which shows the list of candidates and their live vote counts sorted by their vote count
+   - user data must contain their one unique govt id proof : it will be the aadhar card
+   - there should be one admin who can only maintain the table of candidates andd he can't able to vote at all
+   - user can login only with aadhar card number password.
+   - admin can't vote 
+   
+
+
+ Models
+ - 
+
+
+
+ Routes
+ -
+
+ user Authentication
+  -signup POST - create a new user account.
+  -login POST - Log in to an existing account ,[addharcard, password]
+
+Voting
+ -/candidates GET - get the list of candidates.
+- /vote/:candidateId: POST - vote for a specific candidate
+
+vote Counts:
+ -/vote/counts: GET - get the list of candidates sorted by their vote counts
+
+ User Profile:
+ - /profile : Get - the user's profile information.
+ - /profile/password: PUT - change the User's password.
+
+
+Admin candidate Management: 
+ -/candidates : Post - Create a new candidate
+ -/candidates/:candidatesId: PUT - update an existing candidate.
+ -/candidates/:candidatesId: DELETE - Delete a candidate from the list
+
+
+
+ controllers
+ -
+
+ Flow Diagram 
+ORTse5AwqymPElhu
+piyushg094
+mongodb+srv://piyushg094:ORTse5AwqymPElhu@votingdb.vf2ajfv.mongodb.net/?retryWrites=true&w=majority&appName=votingDB
+ --
+ steps
+ 1. create the requirement functional or non functional and define the user and admin functionality
+ 2. Draw the schema of all componets of pages an how routes will work 
+ 3. start project and create Node server 
+ 4. define the schema and connect with DB
+ 5. define the routes and controller file and start writing logic
+ 6. test the logic use integration and functional testing 
+
