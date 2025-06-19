@@ -49,9 +49,7 @@ Admin candidate Management:
  -
 
  Flow Diagram 
-ORTse5AwqymPElhu
-piyushg094
-mongodb+srv://piyushg094:ORTse5AwqymPElhu@votingdb.vf2ajfv.mongodb.net/?retryWrites=true&w=majority&appName=votingDB
+
  --
  steps
  1. create the requirement functional or non functional and define the user and admin functionality
